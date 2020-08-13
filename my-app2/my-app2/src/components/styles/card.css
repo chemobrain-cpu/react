@@ -1,0 +1,43 @@
+body{
+    margin:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(179, 163, 163);
+}
+.card{
+    background-color:rgb(71, 175, 166);
+    display: inline-block;
+    width:50%;
+    border-radius: 10px;
+    margin-left:25%;
+   
+
+
+
+}
+.card-header{
+    background-color:rgb(43, 226, 226);
+  padding:5%;
+  padding-left:none;
+  position:relative;
+  bottom:19px;
+  border-top-right-radius:10px;
+  border-top-left-radius:10px;
+  
+
+}
+.card-img{
+    width:40%;
+    height:140px;
+    border-radius:50%;
+    position:relative;
+    left:40%;
+    bottom:60%;
+}
+ .card-paragraph{
+     padding-left:5%;
+     text-align: start;
+
+ }
+ .card-paragraph{
+
+ }

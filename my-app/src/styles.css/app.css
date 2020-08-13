@@ -1,0 +1,271 @@
+
+html{
+    font-family:Montserrat,sans-serif
+}
+body{
+    background-color:rgba(165, 159, 159, 0.6);
+}
+*{
+    margin:0%;
+}
+.header{
+
+    background-color: #f5ba13;
+    padding:2%;
+
+
+}
+.header-p{
+    color:white;
+    margin-left: 5%;
+
+
+
+}
+.addNotes{
+    display:inline-block;
+    width:30%;
+    padding:5%;
+
+}
+
+/*     <div class="inputArea">
+        <form>
+        <input type="text" placeholder = "title"></input>
+        <input type = "text" placeholder = "notes-content"></input>
+        <button>add</button>
+        </form>
+
+        </div>
+*/
+
+.inputArea{
+    background-color: #fff;
+    padding:17%;
+    border-radius: 5px;
+    box-sizing: content-box;
+    width:100%;
+    box-shadow: 2px 1.5px 1.5px 1px rgba(0,0,0,0.5);
+
+
+}
+.inputArea input{
+    margin-bottom: 5%;
+    border-style: none;
+    width:50%;
+}
+.inputArea button{
+padding:1%;
+border-style: none;
+font-weight: 300;
+color:white;
+background-color: #f5ba13;
+position:relative;
+left:90%;
+top:80%;
+padding:7%;
+border-radius:100%;
+}
+
+
+
+
+
+
+
+
+
+.note{
+   background-color: #fff;
+   
+   box-shadow:0  2px 5px #ccc;
+   margin-top:2%;
+   display:inline-block;
+   width:35%;
+   margin-left:6%;
+   padding:2.5%;
+   border-radius:5px;
+   text-align: justify;
+  
+
+}
+.note-heading{
+    color:rgb(110, 104, 104);
+    padding-bottom:3%;
+    margin-bottom: 1%;
+    
+
+}
+.note-p{
+    color:rgb(133, 121, 121);
+    padding-bottom:5%;
+
+}
+.notes-container{
+    margin-top:2%;
+}
+.note button{
+    position:relative;
+    left:30%;
+    background-color: #f5ba13;
+    border-style: none;
+    border-radius: 2px;
+    color:white;
+    display:none;
+
+    
+}
+
+/*making the notes responsive */
+@media(max-width:700px){
+    .note{
+        display:inline-block;
+        text-align: center;
+        width:50%;
+        margin:0% auto 3% 25%;
+    }
+    }
+
+
+
+.footer{
+     margin-top: 20%;
+    text-align: center;
+    
+   
+
+}
+.footer-p{
+    color:rgba(0,0,0,0.3);
+    font-size: small;
+    font-weight:bolder;
+    
+
+}
+
+/*styling the login component
+.login-container{
+    text-align: center;
+    background-color: rgba(80, 77, 77,0.6);
+    display:inline-block;
+    width:40%;
+    margin:20% 40% 0% 30%;
+    padding:5%;
+    box-sizing: content-box;
+    overflow:hidden;
+
+    
+}
+.login-container input{
+    margin-bottom:2%;
+    width:80%;
+    height:30px;
+
+    
+}
+
+button{
+    margin-bottom: 2%;
+    padding:1.6%;
+    border-radius: 5px;
+    border:none;
+    background-color: rgba(80, 77, 77,0.6);
+}
+input{
+    background-color: rgba(80, 77, 77,0.6);
+    color:white;
+}
+
+
+
+.footer{
+    margin-top:5%;
+    position:relative;
+    bottom: 0;
+    text-align: center;
+    
+   
+
+}
+.footer-p{
+    color:rgba(0,0,0,0.3);
+    font-weight:bolder;
+    
+
+}
+/* making the notes responsive
+@media(max-width:700px){
+    .note{
+        display:inline-block;
+        text-align: center;
+        width:50%;
+        margin:0% auto 3% 25%;
+    }
+    }
+    
+    /*
+
+    body{
+        background-color: rgb(226, 179, 90);
+        
+    }
+.to-do-list{
+    display:inline-block;
+    margin:20% 30% 30% 30%;
+    width:35%;
+    background-color:rgba(225, 225, 225, 0.747);
+    height:350px;
+    border-radius:10px;
+    text-align: center;
+    padding:10px;
+    overflow:auto;
+
+
+}
+.list-header{
+    background-color: orange;
+    padding:3px;
+    width:60%;
+    font-style: italic;
+    font-weight: 300;
+    margin:10% auto 18% auto;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:7px;
+    border-top-left-radius:3px;
+    transform: rotate(4deg);    
+}
+.input{
+    display:inline-block;
+    width:50%;
+    padding-right: 5%;
+    background-color:rgba(221, 209, 209, 0.747);
+    border-bottom:1px dashed orange;
+   
+}
+.to-do-list-input{
+    border:none;
+    width:100%;
+    display:inline-block;
+    background-color:rgba(225, 225, 225, 0.747); 
+}
+.to-do-list-input:hover{
+    border:none;
+}
+.add-btn{
+    border: none;
+    padding:5px;
+    font-weight: 600;
+    background-color: rgb(226, 179, 90);
+   
+}
+.list-container{
+    width:40%;
+    
+}
+.list-items{
+    padding-left:0px;
+    margin-left:0px;
+
+}
+*/
